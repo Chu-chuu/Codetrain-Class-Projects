@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1.5rem 0 hsl(0deg 0% 96% / 11%);
+    border-bottom: 1px solid #e0f6f0;
+}
+
+.section-cont {
+  padding: 2% 5% 5%;
+  border-bottom: 1px solid #e8f0f8;;
+}
+
+element.style {
+  color: #fff;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+} */
+
+.faq {
+  padding: 2% 12% 0;
+}
+
+.faq h5 {
+  color: #8DB2DA;
+}
+
+body, html {
+    /* font-family: Quicksand, sans-serif; */
+    /* font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
+    /* scroll-behavior: smooth; */
+    font-size: 1rem;
+    font-weight: 300;
+    /* font-weight: lighter; */
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://codetraingh.com/static/graduants-40312fad110b4aabfa6973b49e6ae2c7.jpg');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.hero-text h3 {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    max-width: 600px;
+    color: #fff;
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.hero-text li {
+  font-family: Quicksand, sans-serif;
+  line-height: 1.5;
+  max-width: 550px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+.hero-text p{
+  color: white;
+}
+.hero-text a {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.info h6 {
+  font-size: 1.3rem;
+  /* padding: 1rem 6rem; */
+  font-weight: 300;
+}
+
+.box {
+  padding: 1.5rem 0.1rem 2rem 0.1rem;
+  /* width: 7rem; */
+  color: white;
+  
+}
+
+.box1 {
+  /* padding: 0 1rem; */
+  background-color: #8973B3;
+  /* padding: 1.5rem */
+}
+
+.box2 {
+  background-color: #4E88C6;
+  /* padding: 1.5rem */
+}
+
+.box3 {
+  background-color: #D15AA2;
+  /* padding: 1.5rem */
+}
+
+.fees {
+  padding: 0 10%;
+}
+.fees >a, .success-btns >a {
+  color: #8973B3;
+  /* outline: #8973B3; */
+  border: 1px solid #8973B3;
+  padding: 0.4rem 2rem;
+}
+
+.fees :hover, .success-btns :hover {
+  background-color: #8973B3;
+}
+.table-group-divider {
+  border-top: 1px solid #EFF0F2;
+}
+
+/* Contact */
+.contact {
+  color: #fff;
+  background-color: #EA4B6A;
+  min-height: 25rem;
+  padding-left: 3rem;
+  
+}
+.contact h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.contact p {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.campus-image {
+  padding: 0;
+}
+
+.location-heading {
+  color: #98ACC3;
+}
+
+/* Media */
+.media-logo {
+  margin: 1rem;
+  /* width: 50%; */
+  height: 3rem;
+}
+
+/* Footer */
+.logo-img {
+  width: auto;
+  height: 50px;
+}
+li {
+  list-style-type: none;
+  margin-right: 2rem;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #4e88c6;
+  
+}
+@media only screen and (min-width: 992px) {
+  .success-img {
+    height: 60%;
+    float: right;
+  }
+  .card {
+    margin-right: 2rem;
+  }
+}

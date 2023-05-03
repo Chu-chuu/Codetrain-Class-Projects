@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Google Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="registration-form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="form">
+		<div class="first-box">
+			<h1>Codetrain Registration Form</h1>
+			<p>There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process. </p>
+		</div>
+
+		<div id="line">
+			<div id="side"><h5>umekweochuwa@gmail.com <a href="https://accounts.google.com/AccountChooser/signinchooser?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdaF4MZlrAK7dB5mcDdCeL9lKhVbKyaHOdZ4NeuGrumDKmWeg%2Fviewform&service=wise&flowName=GlifWebSignIn&flowEntry=AccountChooser">Switch accounts</a> </h5>
+			<img src="upload.svg" style="width: 20px; height: 20px;"></div>
+			<p class="required" id="re">*Required</p>
+		</div>
+			
+		<div class="second-box">
+			<div class="question">Email<span class="required">*</span></div>
+			<div class="details"><input type="email" name="answer" placeholder="Your email address" required></div>
+		</div>
+		<div class="third-box">
+			<div class="question">Full Name<span class="required">*</span></div>
+			<div class="details"><input type="text" name="answer" placeholder="Your answer" required></div>
+		</div>
+		<div class="fourth-box">
+			<div class="question">Phone Number<span class="required">*</span></div>
+			<div class="details"><input type="tel" name="answer" placeholder="Your answer" required></div>
+		</div>
+		<div class="fifth-box">
+			<div class="question">Phone number of next of kin
+				<p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+			</div>
+			
+			<div class="details"><input type="tel" name="answer" placeholder="Your answer" required></div>
+		</div>
+		<div class="sixth-box">
+			<div class="question">Can you pay 60% or more of the full Codetrain fees (GHS6000)<span class="required">*</span></div>
+			<div class="radio-btn">
+				<label class="radio-label" for="no"><input id="no" class="radio" type="radio" name="fees" value="no">No</label>
+				<label class="radio-label" for="yes"><input id="yes" class="radio" type="radio" name="fees" value="yes">Yes</label>
+			</div>
+
+		</div>
+		<div class="seventh-box">
+			<div class="question">Please indicate who is going to pay your fees<span class="required">*</span></div>
+			<div class="radio-btn">
+				<label class="radio-label" for="yourself"><input id="yourself" class="radio" type="radio" name="fees-responsible" value="yourself">Yourself</label>
+				<label class="radio-label" for="parent/sponsor"><input id="parent/sponsor" class="radio" type="radio" name="fees-responsible" value="parent/sponsor">Parent / Sponsor</label>
+				<label class="radio-label" for="organization"><input id="organization" class="radio" type="radio" name="fees-responsible" value="organization">Organization</label>
+			</div>
+			
+		</div>
+		<div class="eight-box">
+			<div class="question">Location<span class="required">*</span></div>
+			<div class="details"><input type="text" name="answer" placeholder="Your answer" required></div>
+		</div>
+		<div class="ninth-box">
+			<div class="question">Current or previous school<span class="required">*</span></div>
+			<div class="details"><input type="text" name="answer" placeholder="Your answer" required></div>
+		</div>
+		<div class='tenth-box'>
+			<div class="question">Why do you want to join Codetrain<span class="required">*</span></div>
+			<div class="details"><input type="text" name="answer" placeholder="Your answer" required></div>
+		</div>
+		<div class="last-box">
+			<div class="question">How did you hear about Codetrain ?<span class="required">*</span></div>
+			<div class="details"><input type="text" name="answer" placeholder="Your answer" required></div>
+		</div>
+
+	</div>
+
+		<p id="end">A copy of your responses will be emailed to the address that you provided.</p>
+		<div class="footer">
+			<div class="submit">
+				<input class="btn" type="submit" name="Submit">
+				<!-- /*	Putting both items in a container and setting display to flex, fixed the alignment issue -->
+				<span class="link"><div id="green"></div>
+				<p id="page">Page 1 of 1</p></span>
+				<button class="button" type="button" name="Clear form">Clear form</button>
+			</div>
+			<p class="privacy">Never submit passwords through Google Forms.</p>
+			<figure id="recaptcha">
+				<img src="recaptcha.svg" style="width: 35px; height: 35px;">
+				<a href="https://policies.google.com/privacy?hl=en">Privacy</a>
+				<a href="https://policies.google.com/terms?hl=en"> Terms</a> 
+			</figure>
+			<div class="last-div">
+				<p class="term">This content is neither created nor endorsed by Google.<a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaF4MZlrAK7dB5mcDdCeL9lKhVbKyaHOdZ4NeuGrumDKmWeg/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSdaF4MZlrAK7dB5mcDdCeL9lKhVbKyaHOdZ4NeuGrumDKmWeg/viewform"> Report Abuse</a> - <a href="https://policies.google.com/terms">Terms of Service</a> - <a href="https://policies.google.com/privacy">Privacy Policy.</a></p>
+				<h2 id="google"><a  href="https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms">Google Forms</h2>
+			</div>
+		</div>
+		
+	
+	<div></div>
+	<div></div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+/*	margin: 0 auto;*/
+/*	margin: 10px 30px 20px;*/
+margin-left: 200px;
+/*margin-right: 100px;*/
+margin-top: 20px;
+	width: 90%;
+}
+
+#navbar {
+	width: 80%;
+	height: 6vh;
+	background-color: #A2C4C9;
+	margin-bottom: 16px;
+}
+
+#hero {
+	width: 80%;
+	height: 30vh;
+	background-color: #A2C4C9;
+	margin-bottom: 30px;
+}
+
+.section {
+	width: 80%;
+	display: flex;
+	gap: 2em;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+}
+
+.section >div {
+	background-color: #A2C4C9;
+	width: 30%;
+	height: 30vh;
+}
+
+#footer {
+	width: 80%;
+	background-color: #A2C4C9;
+	height: 9vh;
+}

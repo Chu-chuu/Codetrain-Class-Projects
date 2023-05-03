@@ -1,0 +1,73 @@
+.container-fluid {
+    padding: 5%;
+}
+.images {
+    width: 100%;
+    height: 300px;
+}
+.image-tag {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    font-size: 0.5rem;
+}
+.pricing-card-title {
+    height: 3rem;
+}
+.card-header {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+hr {
+    width: 25px;
+    margin: auto;
+    /* color: yellow; */
+    border: 2px solid #FECE32;
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: none;
+}
+.price {
+    line-height: 0.2;
+}
+.price p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: grey;
+}
+.price span {
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+.round {
+    border-radius: 100%;
+    padding: 10px;
+    /* margin-right: 0.5px; */
+    font-size: 0.5rem;
+    border: none;
+}
+.info {
+    line-height: 1;
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    margin: auto;
+    text-align: center;
+    color: grey;
+}
+.rate {
+    padding-left: 2rem;
+}
+
+.select-cont p {
+    font-size: 1rem;
+}
+select {
+    /* font-size: 1rem; */
+    /* padding: 0 2rem; */
+    width: 120px;
+}

@@ -1,0 +1,133 @@
+<!-- In forms.html (this is from your second html lesson), create an internal style tag in the head section of your html document
+Style your input fields(width, height, border-radius, etc).
+Style the title of your form
+Style the labels of your form
+Import a font from google fonts and use that in your project
+Freestyle from here… pun intended :)  -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		body{
+			width: 100%;
+    		height: 100vh;
+			font-family: 'Roboto', sans-serif;
+			background-color: ;
+			background-color: #1b1b32;
+    		color: #f5f6f7;
+		}
+		h1 {
+			text-align: center;
+		}
+
+		form {
+		    width: 25vw;
+		    margin: 0 auto; 
+		 }
+
+		label{
+		    display: block;
+		    
+		}
+
+		div {
+			margin: 1rem 0;
+		}
+
+		input {
+			width: 100%;
+		}
+
+		.radio-button{
+			float: left;
+		}
+
+		.radio-button label {
+			float: left;
+			clear: none;
+/*			padding: 0px 1em 0px 8px;*/
+
+
+		}
+
+		.radio {
+			float: left;
+			margin: 2px 0 0 2px;
+			/*			display: inline;*/
+/*			margin: 0.001rem 0;*/
+/*			width: unset;*/
+/*		    margin: 0 0.5em 0 0;*/
+		   /* vertical-align: middle;
+		      display: block;  
+			  position: relative;  
+			  padding-left: 40px;  
+			  margin-bottom: 20px;  
+			  cursor: pointer;  
+			  font-size: 25px; */
+		}
+
+		button {
+			display: block;
+			margin: 2em auto;
+			width: 50%;
+			height: 2em;
+			font-size: 1.1rem;
+			border: 1px solid white;
+			border-radius: 5px; 
+
+		   /* 
+		    
+		    
+		    background-color: #3b3b4f;
+		    border-color: white;
+		    min-width: 300px;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<h1>Registration Form</h1>
+	</section>
+
+	<form>
+		<div>
+			<label>First Name</label>
+			<input type="text" name="first name" placeholder="Enter your first name" >
+		</div>
+	
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="last name" placeholder="Enter your last name" style="">
+		</div>	
+
+		<div>
+			<label>Email</label>
+			<input type="email" name="email" placeholder="Enter your email address">
+		</div>
+
+		<div>
+			<label>Phone Number</label>
+			<input type="tel" name="phone number" placeholder="Enter your phone number">
+		</div>		
+
+		<div >
+			<label>Gender</label>
+		</div>
+
+		<div class="radio-button">
+			<label for="male"><input id="male" class="radio" type="radio" name="gender" value="male">Male</label>
+			<label for="female"><input id="female" type="radio" name="gender" value="female">Female</label>
+			<label for="other"><input id="other" type="radio"name="gender" value="other">Other</label>
+		</div>
+		<button>Submit</button>
+	</form>
+</body>
+</html>

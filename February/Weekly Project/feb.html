@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="feb.css">
+    <link rel="stylesheet" href="Week 4/website.css" type="text/css">
+
+    <title>Monthly Exercise</title>
+    
+</head>
+<style>
+	table, th, td {border:1px solid black; border-collapse: collapse; text-align: center;
+}
+
+
+    .container {
+        max-width: 500px;
+        width: 100%;
+        margin: 50px auto;
+        background: #F2D4D5;
+        padding: 35px 40px;
+        border-radius: 5px;
+        width: 100%;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+        background-color: #E2B2AD;
+        color: black;
+        margin:0 auto;
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+    form {
+/*			The width here shrinks the content to fit size*/
+        width: 60vw;
+        margin: 25px auto; 
+    }
+
+    label{
+        display: block;  
+/*		    the margin and display: block; gives space between the label and input below*/
+        margin: 0.5rem 0; 
+    }
+
+
+    div {
+        margin: 1rem 0;
+    }
+
+    .details {
+        width: 100%;
+        height: 40px;
+        min-height: 2em;
+        
+        background-color: #F1E5E1;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
+
+    .radio-button {
+        display: flex;
+        border-radius: 50%;
+    }
+
+    .radio-button label{
+        display: flex;
+        padding: 0px 3em 0px 0;
+        border-radius: 50%;
+        align-items: center;			
+    }
+
+    .radio {
+        width: unset;
+        margin: 0 5px 0 0;
+        border-radius: 50%;
+        height: 16px;
+        width: 16px;
+    }
+
+    button {
+        display: block;
+        margin: 2em auto;
+        width: 50%;
+        height: 2em;
+        font-size: 1.5rem;
+        border: 1px solid white;
+        border-radius: 5px; 
+        margin-bottom: 10px;
+        color: white;
+        background-color: #213F98;
+    }
+</style>
+<body>
+    <section>
+        <h1>Reading</h1>
+		<p>Reading is something I enjoyed as a kid, and at the time I enjoyed it simply because I loved storytelling.</p>
+		<p>As I got older, I realised I liked the fact that I get to experience life through the lens of another. It made me aware of realities outside of mine.</p>
+		<p>In recent times, it has become harder to read due to a lot of distractions and attention span. However, I have grown to like audio books and I love that I can listen to a book while performing a chore.
+		<img src="week1/1.jpeg" width="80%" height="600vh" alt="An image of girl sitting on books">
+		<h3>Benefits of reading</h3>
+		<p>To expand your knowledge.</p>
+		<p>To expand your vocabulary.</p>
+		<p>I believe reading certain books, especially fiction, increases ones ability to empathize. I believe reading amongst others, has helped understand there are realities and beliefs outside of mine, and I've learnt to respect and empathise where needed.</p>
+		<p>Learn more benefits of reading <a href="https://www.lifehack.org/articles/lifestyle/10-benefits-reading-why-you-should-read-everyday.html">here</a></p>
+		<a href="https://www.speeli.com/why-some-people-find-it-hard-to-read-a-book/">The decline of reading</a>
+		<h4>A list of books I have read</h4>
+		<ul>
+			<li>Who Moved My Cheese</li>
+			<li>Love In Colour</li>
+			<li>The Subtle Art Of Not Giving A Fuck</li>
+			<li>The Vanishing Half</li>
+			<li>Under The Udala Trees</li>
+		</ul>
+		<img src="week1/2.jpeg" width="43%" height="200vh" alt="An image of love in colour">
+		<img src="week1/3.jpeg" width="43%" height="200vh" alt="An image of who moved my cheese">
+		<img src="week1/4.jpeg" width="43%" height="200vh" alt="An image of the vanishing half">
+		<img src="week1/5.jpeg" width="43%" height="200vh" alt="An image of the subtle art of not giving a fuck">
+    </section>
+
+    <section>
+        <h1>Virtual Workshop Registration Form</h1><hr>
+        <h4>Join the 3-day web development virtual workshop and become a hirable freelancer.</h3>
+        <p>Participation Fee: <strong>$200</strong></p>
+        <p>Limited slots! Reserve now!</p>
+        <form>
+    
+            <h2>Partcipant Information</h2><hr>
+            <div>
+                <label>First Name</label>
+                <br>
+                <input type="text" name="first name" placeholder="Enter your first name" style="width: 200px;">
+    
+            </div>
+        
+            <div>
+                <label>Last Name</label><br>
+                <input type="text" name="last name" placeholder="Enter your last name" style="width: 200px;">
+            </div>	
+    
+            <div>
+                <label>Email</label><br>
+                <input type="email" name="email" placeholder="e.g. example@email.com" style="width: 200px;"><br>
+            </div>
+    
+            <div>
+                <label>Phone Number</label><br>
+                <input type="tel" name="phone number" placeholder="e.g. +1-416-555-1212" style="width: 200px;"><br>
+            </div>		
+    
+            <div>
+                <label>Address</label><br>
+                <input type="text" name="address" placeholder="Street, City" style="width: 200px;"><br>
+            </div>	
+    
+            <div>
+                <label>Gender</label><br>
+            </div>
+    
+            <div>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio"name="gender" value="other">Other<br>
+            </div>
+    
+            <div>
+                <label>Occupation</label><br>
+                <input type="text" name="occupation" style="width: 200px;"><br>
+                <small>Optional / Current or Previous</small><br>
+            </div>	
+            <div>
+                <label>Company Name</label><br>
+                <input type="text" name="company name" style="width: 200px;"><br>
+                <small>Optional / Current or Previous</small>
+            </div>
+            <br>
+            
+            <div>
+                <label>Please rate your web development or pogramming knowledge</label><br>
+                <input type="checkbox" name="">I don't have any idea at all<br>
+                <input type="checkbox" name="">I'm a newbie in web development and programming<br>
+                <input type="checkbox" name="">I have watched tutorials online<br>
+                <input type="checkbox" name="">I have a web development-related working experience<br>
+                <input type="checkbox" name="">I'm currently working as a web developer and wants to improve my skills<br>
+                <input type="checkbox" name="">Other
+            </div>
+            <br>
+            <div>
+                <label>I'd like to learn about the following:</label><br>
+                <input type="checkbox" name="field" value="html">HTML
+                <input type="checkbox" name="field" value="css">CSS<br>
+                <input type="checkbox" name="field" value="javascript">Javascript
+                <input type="checkbox" name="field" value="php">PHP<br>
+                <input type="checkbox" name="field" value="database">Database
+                <input type="checkbox" name="field" value="python (django or flask)">Python (Django or Flask)<br>
+                <input type="checkbox" name="field" value="devops">DevOps
+                <input type="checkbox" name="field" value="Web Security">Web Security<br>
+                <input type="checkbox" name="field" value="front-end development">Front-End Development
+                <input type="checkbox" name="field" value="back-end development">Back-End Development<br>
+                <input type="checkbox" name="field" value="other">Other<br>
+            </div>
+    
+            <h2>OOther Information</h2><hr>
+            <div>
+                <label>Workshop Dates (2020)</label><br>
+                <input type="radio" name="workshop dates" value="May 1-3">May 1-3
+                <input type="radio" name="workshop dates" value="May 15-18">May 15-18 <br>
+                <input type="radio" name="workshop dates" value="june 1-3">June 1-3
+                <input type="radio" name="workshop dates" value="june 15-18">June 15-18 <br>
+                <input type="radio" name="workshop dates" value="july 1-3">July 1-3
+                <input type="radio" name="workshop dates" value="july 15-18">July 15-18 <br>
+            </div>
+            <br>
+            <div>
+                <label for="info">Any additional comments or information you would like to share?<br>
+                    <textarea id="info" name="info" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+               </label>
+               </div>
+               <br>
+               <div>
+                <label>I'd like to learn about the following:</label><br>
+                <input type="checkbox" name="field" value="html">Facebook
+                <input type="checkbox" name="field" value="css">Twitter<br>
+                <input type="checkbox" name="field" value="javascript">Instagram
+                <input type="checkbox" name="field" value="php">Youtube<br>
+                <input type="checkbox" name="field" value="database">Search Engine
+                <input type="checkbox" name="field" value="python (django or flask)">Online Ads<br>
+                <input type="checkbox" name="field" value="devops">Referral
+                <input type="checkbox" name="field" value="Web Security">Other<br>
+              
+            </div>
+    
+            <button>Submit</button>
+        </form>
+        <hr>
+        <center>
+            <header>
+                <h1>St. Benedict High School</h1>
+                 <p>This is a table showing the test scores of Evelyn Jack in the recently concluded test.</p>
+            </header>
+        
+            <table>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red eyes</th>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>weight</td>
+                </tr>
+                <tr>
+                    <td>males</td>
+                    <td>1.9</td>
+                    <td>0.009</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>females</td>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+                
+            </table>
+        </center>
+        
+    </section>
+<hr>
+    <section>
+        <form>
+            <div class="container">
+                <section>
+                    <h1>Registration Form</h1>
+                </section>
+                <div>
+                    <label class=>First Name</label>
+                    <input class="details" type="text" name="first name" placeholder="Enter your first name" >
+                </div>
+            
+                <div>
+                    <label>Last Name</label>
+                    <input class="details" type="text" name="last name" placeholder="Enter your last name" style="">
+                </div>	
+
+                <div>
+                    <label>Email</label>
+                    <input class="details" type="email" name="email" placeholder="Enter your email address">
+                </div>
+
+                <div>
+                    <label>Phone Number</label>
+                    <input class="details" type="tel" name="phone number" placeholder="Enter your phone number">
+                </div>		
+
+                <div >
+                    <label>Gender</label>
+                </div>
+
+                <div class="radio-button">
+                    <label for="male"><input id="male" class="radio" type="radio" name="gender" value="male">Male</label>
+                    <label for="female"><input id="female" class="radio" type="radio" name="gender" value="female">Female</label>
+                    <label for="other"><input id="other" class="radio" type="radio"name="gender" value="other">Other</label>
+                </div>
+                <button>Submit</button>
+
+            </div>
+        </form>
+    </section>
+<hr>  m 
+     <section class="body">
+        <div class="main">
+            <div class="left-side">
+              <h2>Learn to code by watching others</h1>
+        
+              <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+            </div>
+            
+            <div class="right-side">
+              <div id="top"><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
+              <div class="form">
+                <input type="text" name="first-name" placeholder="Jonathan|">
+                <input type="text" name="last-name" placeholder="Last Name">
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="password" name="password" placeholder="Passowrd">
+                <button type="button">CLAIM YOUR FREE TRIAL</button>
+                <div>By clicking the button, you are agreeing to our <a id="terms" href="#">Terms and Services</a></div>
+              </div>
+            </div>
+          </div>
+          
+          <footer>
+            <p class="attribution">
+              Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+              Coded by <a href="#">Ngozi Umekwe</a>.
+            </p>
+          </footer>
+    </section>
+<hr>
+    <section>
+        <header id="navbar">
+			<h1>Mindful Living Today</h1>
+            <div>
+                <ul id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </div>
+	    </header>
+        <main class="main">
+            <div class="left-box">
+                <h1>About Mindful Living Today</h1>
+                <img id="image1" src="https://images.pexels.com/photos/6457563/pexels-photo-6457563.jpeg?auto=compress&cs=tinysrgb&w=800">
+                <p>Welcome to Mindful Living Today, a platform dedicated to exploring the art of slow living. Our mission is to help people find more joy, fulfillment, and meaning in their lives by embracing a slower, more intentional way of living.<br>
+                At Mindful Living Today, we believe that the modern world is often too fast-paced and frenzied, leaving little time for reflection, connection, and creativity. That's why we're committed to promoting a more mindful, purposeful way of living that emphasizes quality over quantity, presence over productivity, and simplicity over excess.</p>
+                <p>Our team consists of a group of passionate writers, artists, and creatives who share a common love of slow living. Through our blog, resources, and products, we aim to provide inspiration, guidance, and tools for anyone who wants to slow down and savor the richness of life.
+                <br>
+                Whether you're interested in mindfulness, creativity, sustainability, or simply taking a break from the hustle and bustle of everyday life, [Mindful Living Today has something for you. Join us on our journey towards a slower, more meaningful existence and discover the beauty of the art of slow living.</p>
+                <img src="https://images.unsplash.com/photo-1523898052899-241108586cf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjg2fHxibGFjayUyMHBlb3BsZSUyMHdhdGVyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60">
+                <img src="https://images.unsplash.com/photo-1522543558187-768b6df7c25c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fEFuJTIwaW1hZ2UlMjBvZiUyMGElMjBjb21tdW5pdHklMjBnYXJkZW4lMkMlMjBmYXJtZXIncyUyMG1hcmtldCUyQyUyMG9yJTIwb3RoZXIlMjBzdXN0YWluYWJsZSUyMGxpdmluZyUyMGluaXRpYXRpdmUlMkMlMjB0byUyMGlsbHVzdHJhdGUlMjB0aGUlMjBpbXBvcnRhbmNlJTIwb2YlMjBsaXZpbmclMjBpbiUyMGhhcm1vbnklMjB3aXRoJTIwdGhlJTIwZW52aXJvbm1lbnQufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+                <img src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fEFuJTIwaW1hZ2UlMjBvZiUyMHNvbWVvbmUlMjBlbmdhZ2luZyUyMGluJTIwYSUyMHNsb3clMjBhbmQlMjBpbnRlbnRpb25hbCUyMGFjdGl2aXR5JTIwc3VjaCUyMGFzJTIwY29va2luZyUyQyUyMHJlYWRpbmclMkMlMjBvciUyMGdhcmRlbmluZyUyQyUyMHRvJTIwc2hvd2Nhc2UlMjB0aGUlMjBiZWF1dHklMjBvZiUyMHNpbXBsZSUyMHBsZWFzdXJlcy58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60">
+            </div>
+            
+            <div id="right-box">
+                <div class="plain">
+                    <h1>The Art of Slow Living</h1>
+                    <p id="firstp">The slow living movement emerged in the late 1980s as a response to the fast-paced and consumer-driven culture of the modern world. The movement's origins can be traced back to Italy, where a group of activists, artists, and intellectuals founded the "Slow Food" movement in protest against the rise of fast food and the globalization of culinary culture.</p>
+                    <!-- <img src="https://images.pexels.com/photos/445849/pexels-photo-445849.jpeg?auto=compress&cs=tinysrgb&w=800"> -->
+                    <!-- <img src="https://images.nappy.co/uploads/large/1081596681576cd8bp7fckehfb1qr1qqvhlq9ppolvyxaelex0r51olf6c0jzppx4u9scxskewgfbhkaxdyjdzhusyeepa2s9kdzog6dpgkdprfue.jpg?auto=format&w=1000&h=411&fit=clip&q=75" style="height: 400px;"> -->
+                    <!-- <img src="https://images.nappy.co/uploads/large/361592581187iscoqdatflu5c55df6siqa5uocdjyuhzhgeszkmyrdikndkkgxkvpjrzprdor1vropecpuounjtge5azmt8bajkc4lx3qlhkmxe8.jpg?auto=format&w=1000&h=480&fit=clip&q=75" style="height: 300px;"> -->
+                    <!-- <img src="https://images.unsplash.com/photo-1517840933437-c41356892b35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGJsYWNrJTIwcGVvcGxlJTIwY29tbXVuaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">/ -->
+                    <!-- <img src="https://images.unsplash.com/photo-1559733711-1b689ab44236?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fGJsYWNrJTIwcGVvcGxlJTIwY29tbXVuaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"> -->
+                    <img src="https://images.unsplash.com/photo-1445384291141-24217cd1d40c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJsYWNrJTIwcGVvcGxlJTIwYmx1ZSUyMHNreXxlbnwwfDB8MHx8&auto=format&fit=crop&w=800&q=60">
+                    <div id="wrapper">
+                        <p>Slow Food aimed to promote traditional and local food cultures, as well as sustainable agriculture and responsible consumption. The movement quickly gained popularity and spread beyond Italy, inspiring a broader movement for slow living that encompassed not just food, but all aspects of daily life.</p><br>
+                        <p>In the years since its inception, the slow living movement has continued to evolve and grow, with many influential figures and ideas contributing to its development. Some key figures in the slow living movement include Carl Honoré, the author of "In Praise of Slow," and Brooke McAlary, the founder of the Slow Home podcast and blog.</p><br>
+                        <p>In the years since its inception, the slow living movement has continued to evolve and grow, with many influential figures and ideas contributing to its development. Some key figures in the slow living movement include Carl Honoré, the author of "In Praise of Slow," and Brooke McAlary, the founder of the Slow Home podcast and blog.</p><br>
+                        <p>The slow living movement has also been influenced by a range of other ideas and movements, including minimalism, mindfulness, and environmentalism. Together, these various strands of thought and action have contributed to the development of a holistic approach to slow living that emphasizes quality over quantity, mindfulness over distraction, and sustainability over excess.</p><br>
+                        <p>Today, the slow living movement continues to inspire people around the world to live more intentionally and deliberately, to reconnect with their communities and the natural world, and to find greater fulfillment and meaning in their lives.</p>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="green">
+                    <h1>Our Core Principles</h1>
+                    <p class="end">The art of slow living is rooted in a set of core principles that prioritize quality over quantity, mindfulness over distraction, and sustainability over excess. These principles include:</p>
+                    <img src="https://images.unsplash.com/photo-1550096141-7263640aa48c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ0fHxhbiUyMGltYWdlJTIwZGVwaWN0aW5nJTIwY29tbXVuaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+                    <p >Mindfulness: The practice of being present and aware of one's thoughts, feelings, and surroundings. Mindfulness is an essential component of slow living because it helps us to slow down and savor the richness of life, rather than rushing through it mindlessly.</p>
+                    <p >Simplicity: The idea of living with less and focusing on what truly matters. Simplicity is about reducing the noise and clutter in our lives, so we can better appreciate the things that bring us joy and fulfillment.</p>
+                    <p >Sustainability: The concept of living in harmony with the environment and preserving resources for future generations. Sustainability involves making conscious choices about how we consume, produce, and dispose of goods and services, to minimize our impact on the planet.</p>
+                    <p>Connection: The importance of building meaningful relationships with others and fostering a sense of community. Connection is about recognizing our interdependence with others and finding ways to collaborate and support one another.</p>
+                
+                    <p class="end">These core principles are interconnected, and each one reinforces the others. For example, by practicing mindfulness, we can cultivate a greater appreciation for simplicity and sustainability, and by focusing on sustainability, we can build stronger connections with others who share our values. By embracing these principles, we can create a more meaningful and fulfilling way of living that benefits both ourselves and the world around us.</p>
+                </div>
+                
+            </div>
+        </main>
+    
+    
+        <footer>
+            <div class="footer-content">
+                <h3>Mindful Living Today</h3>
+                <div id="footer-menu">
+                    <div >
+                        <ul id="f-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Resources</a></li>
+                        </ul>
+                    </div>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook" style="color:#577C69"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" style="color:#577C69"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" style="color:#577C69"></i></a></li>
+                        <!-- <li><a href="#"><img src="facebook-icon.svg" class="f" style="width: 25px; height: 25px;"></img></a></li>
+                        <li><a href="#"><img src="twitter-icon.svg" style="width: 25px; height: 25px;"></img></a></li>
+                        <li><a href="#"><img src="insta-icon.svg" style="width: 25px; height: 25px; color: ;"></img></a></li> -->
+                    </ul>
+            </div>
+                </div>
+                
+            <div class="footer-bottom">
+                <p>Copyright &copy; <a href="#" style="color:#577C69; ">2023 The Art of Slow Living. All rights reserved.</a> </p>
+                <div><span>Disclaimer:</span> The information on this website is for educational purposes only and is not intended as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified healthcare provider with any questions you may have regarding a medical condition.</div>
+            </div>
+        </footer>
+
+    </section>
+</body>
+</html>

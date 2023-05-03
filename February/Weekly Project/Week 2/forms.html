@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form</title>
+</head>
+<body>
+	<h1>Virtual Workshop Registration Form</h1><hr>
+	<h4>Join the 3-day web development virtual workshop and become a hirable freelancer.</h3>
+	<p>Participation Fee: <strong>$200</strong></p>
+	<p>Limited slots! Reserve now!</p>
+	<form>
+
+		<h2>Partcipant Information</h2><hr>
+		<div>
+			<label>First Name</label>
+			<br>
+			<input type="text" name="first name" placeholder="Enter your first name" style="width: 200px;">
+
+		</div>
+	
+		<div>
+			<label>Last Name</label><br>
+			<input type="text" name="last name" placeholder="Enter your last name" style="width: 200px;">
+		</div>	
+
+		<div>
+			<label>Email</label><br>
+			<input type="email" name="email" placeholder="e.g. example@email.com" style="width: 200px;"><br>
+		</div>
+
+		<div>
+			<label>Phone Number</label><br>
+			<input type="tel" name="phone number" placeholder="e.g. +1-416-555-1212" style="width: 200px;"><br>
+		</div>		
+
+		<div>
+			<label>Address</label><br>
+			<input type="text" name="address" placeholder="Street, City" style="width: 200px;"><br>
+		</div>	
+
+		<div>
+			<label>Gender</label><br>
+		</div>
+
+		<div>
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio"name="gender" value="other">Other<br>
+		</div>
+
+		<div>
+			<label>Occupation</label><br>
+			<input type="text" name="occupation" style="width: 200px;"><br>
+			<small>Optional / Current or Previous</small><br>
+		</div>	
+		<div>
+			<label>Company Name</label><br>
+			<input type="text" name="company name" style="width: 200px;"><br>
+			<small>Optional / Current or Previous</small>
+		</div>
+		<br>
+		
+		<div>
+			<label>Please rate your web development or pogramming knowledge</label><br>
+			<input type="checkbox" name="">I don't have any idea at all<br>
+			<input type="checkbox" name="">I'm a newbie in web development and programming<br>
+			<input type="checkbox" name="">I have watched tutorials online<br>
+			<input type="checkbox" name="">I have a web development-related working experience<br>
+			<input type="checkbox" name="">I'm currently working as a web developer and wants to improve my skills<br>
+			<input type="checkbox" name="">Other
+		</div>
+		<br>
+		<div>
+			<label>I'd like to learn about the following:</label><br>
+			<input type="checkbox" name="field" value="html">HTML
+			<input type="checkbox" name="field" value="css">CSS<br>
+			<input type="checkbox" name="field" value="javascript">Javascript
+			<input type="checkbox" name="field" value="php">PHP<br>
+			<input type="checkbox" name="field" value="database">Database
+			<input type="checkbox" name="field" value="python (django or flask)">Python (Django or Flask)<br>
+			<input type="checkbox" name="field" value="devops">DevOps
+			<input type="checkbox" name="field" value="Web Security">Web Security<br>
+			<input type="checkbox" name="field" value="front-end development">Front-End Development
+			<input type="checkbox" name="field" value="back-end development">Back-End Development<br>
+			<input type="checkbox" name="field" value="other">Other<br>
+		</div>
+
+		<h2>OOther Information</h2><hr>
+		<div>
+			<label>Workshop Dates (2020)</label><br>
+			<input type="radio" name="workshop dates" value="May 1-3">May 1-3
+			<input type="radio" name="workshop dates" value="May 15-18">May 15-18 <br>
+			<input type="radio" name="workshop dates" value="june 1-3">June 1-3
+			<input type="radio" name="workshop dates" value="june 15-18">June 15-18 <br>
+			<input type="radio" name="workshop dates" value="july 1-3">July 1-3
+			<input type="radio" name="workshop dates" value="july 15-18">July 15-18 <br>
+		</div>
+		<br>
+		<div>
+			<label for="info">Any additional comments or information you would like to share?<br>
+				<textarea id="info" name="info" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+           </label>
+   		</div>
+   		<br>
+   		<div>
+			<label>I'd like to learn about the following:</label><br>
+			<input type="checkbox" name="field" value="html">Facebook
+			<input type="checkbox" name="field" value="css">Twitter<br>
+			<input type="checkbox" name="field" value="javascript">Instagram
+			<input type="checkbox" name="field" value="php">Youtube<br>
+			<input type="checkbox" name="field" value="database">Search Engine
+			<input type="checkbox" name="field" value="python (django or flask)">Online Ads<br>
+			<input type="checkbox" name="field" value="devops">Referral
+			<input type="checkbox" name="field" value="Web Security">Other<br>
+			<hr>
+		</div>
+
+		<button>Submit</button>
+	</form>
+</body>
+</html>
